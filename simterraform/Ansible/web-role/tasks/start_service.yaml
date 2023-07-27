@@ -1,0 +1,5 @@
+- name: start httpd service
+  become: yes
+  service:
+    name: "{{ package_name }}"
+    state: started

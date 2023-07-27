@@ -1,0 +1,4 @@
+- name: install the latest version of Apache
+  yum:
+    name: "{{ package_name }}"
+    state: latest
